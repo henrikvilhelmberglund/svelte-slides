@@ -1,4 +1,6 @@
-# Reveal.js + Svelte + Vite + TailwindCSS
+# Reveal.js + Svelte + Vite + UnoCSS + mdsvex
+
+This is a fork of Svelte-Slides which uses UnoCSS instead of TailwindCSS and added mdsvex. Original readme below.
 
 ![Svelte Slides logo](public/svelte-slides.jpg)
 
