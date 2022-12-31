@@ -1,4 +1,5 @@
 import { defineMDSveXConfig as defineConfig } from "mdsvex";
+import remarkattr from "remark-attr";
 
 const config = defineConfig({
   extensions: [".svelte.md", ".md", ".svx"],
@@ -11,7 +12,7 @@ const config = defineConfig({
     // notes: "src/lib/mdsvex-layout-notes.svx",
     // mainpage: "src/lib/mdsvex-layout-mainpage.svx",
   },
-  remarkPlugins: [],
+  remarkPlugins: [remarkattr],
 
   rehypePlugins: [],
 });

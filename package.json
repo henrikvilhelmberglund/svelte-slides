@@ -15,6 +15,7 @@
     "autoprefixer": "^10.4.13",
     "mdsvex": "^0.10.6",
     "postcss": "^8.4.19",
+    "remark-attr": "^0.11.1",
     "svelte": "^3.49.0",
     "svelte-preprocess": "^5.0.0",
     "tailwindcss": "^3.2.4",
