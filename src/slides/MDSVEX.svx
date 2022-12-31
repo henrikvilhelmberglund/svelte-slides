@@ -1,6 +1,6 @@
 <section>
 
-# hi
+# hi { class="!text-red-500" }
   
 I am a markdown file :(
 
