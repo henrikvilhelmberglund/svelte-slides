@@ -1,6 +1,5 @@
 <script>
   import Count from "../lib/Count.svelte"
-  import P from "../lib/P.svelte"
 </script>
   
 <section>
