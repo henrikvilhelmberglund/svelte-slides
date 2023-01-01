@@ -1,13 +1,44 @@
-<section>
-
-# hi { class="!text-red-500" }
+<script>
+  import Count from "../lib/Count.svelte"
+  import P from "../lib/P.svelte"
+</script>
   
-I am a markdown file :(
-
-</section>
-
 <section>
 
-# next slide yo
+  
+# hi { class="!text-green-300" }
 
+<div class="animate-bounce">
+  
+  
+  I am a markdown file
+
+</div>
+
+
+  *hello?*{class="text-green-300"}
+
+<div class="text-green-900">  
+
+    nou
+  </div>
+  
+
+  
+<Count/>
+
+  </section>
+
+<section>
+    
+whatever
+
+<div>
+
+  
+  *I guess it works?*{ class="bg-pink-300 !not-italic" }
+
+
+  </div>
+  
 </section>
