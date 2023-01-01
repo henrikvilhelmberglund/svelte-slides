@@ -1,5 +1,5 @@
 <script>
-  import MDSVEX from "./slides/MDSVEX.svx";
+  import Mdsvex from "./slides/Mdsvex.svx";
   import Title from "./slides/Title.svelte";
   import Love from "./slides/Love.svelte";
   import GettingStarted from "./slides/GettingStarted.svelte";
@@ -8,22 +8,20 @@
   import Barebones from "./slides/examples/Barebones.svelte";
   import LayoutHelpers from "./slides/examples/LayoutHelpers.svelte";
   import Markdown from "./slides/examples/Markdown.svelte";
-  import Math from "./slides/examples/Math.svelte";
   import Media from "./slides/examples/Media.svelte";
   import Transitions from "./slides/examples/Transitions.svelte";
 
   const partner = ["Svelte", "Reveal.js"];
 </script>
 
-<MDSVEX />
-<Title />
+<!-- <Title /> -->
+<Mdsvex />
 <Love {partner} />
-<GettingStarted />
+<!-- <GettingStarted /> -->
 <AutoAnimate />
-<Backgrounds />
-<Barebones />
-<LayoutHelpers />
+<!-- <Backgrounds /> -->
+<!-- <Barebones /> -->
+<!-- <LayoutHelpers /> -->
 <Markdown />
-<Math />
-<Media />
-<Transitions />
+<!-- <Media /> -->
+<!-- <Transitions /> -->
