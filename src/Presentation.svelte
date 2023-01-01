@@ -7,7 +7,7 @@
   import Backgrounds from "./slides/examples/Backgrounds.svelte";
   import Barebones from "./slides/examples/Barebones.svelte";
   import LayoutHelpers from "./slides/examples/LayoutHelpers.svelte";
-  import Markdown from "./slides/examples/Markdown.svelte";
+  import Markdown from "./slides/examples/Markdown.svx";
   import Media from "./slides/examples/Media.svelte";
   import Transitions from "./slides/examples/Transitions.svelte";
 
