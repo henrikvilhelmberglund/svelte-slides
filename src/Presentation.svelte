@@ -17,11 +17,11 @@
 <!-- <Title /> -->
 <Mdsvex />
 <Love {partner} />
-<!-- <GettingStarted /> -->
+<GettingStarted />
 <AutoAnimate />
-<!-- <Backgrounds /> -->
-<!-- <Barebones /> -->
-<!-- <LayoutHelpers /> -->
+<Backgrounds />
+<Barebones />
+<LayoutHelpers />
 <Markdown />
-<!-- <Media /> -->
-<!-- <Transitions /> -->
+<Media />
+<Transitions />
