@@ -1,4 +1,5 @@
 <script>
+  import ReverseString from "./slides/examples/ReverseString.svelte";
   import Mdsvex from "./slides/Mdsvex.svx";
   import Title from "./slides/Title.svelte";
   import Love from "./slides/Love.svelte";
@@ -15,6 +16,7 @@
 </script>
 
 <!-- <Title /> -->
+<ReverseString />
 <Mdsvex />
 <Love {partner} />
 <GettingStarted />
