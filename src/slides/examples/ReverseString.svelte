@@ -5,7 +5,7 @@
   let reversing = 0;
   let clicked = 0;
   let offset2 = 0;
-  import { sineOut } from "svelte/easing";
+  import { sineOut, sineIn } from "svelte/easing";
   function reverseString(params) {
     let myString = params;
     let outputArray = [];
@@ -24,7 +24,7 @@
       delay,
       duration,
       css: (t) => {
-        const eased = sineOut(t);
+        const eased = sineIn(t);
         let offset = reversed ? 0 : 0;
 
         return `
@@ -63,7 +63,7 @@
       {#key reverse}
         {#if clicked}
           <div
-            in:spin={{ delay: 0, duration: 1000 }}
+            in:spin={{ delay: 0, duration: 700 }}
             on:introstart={() => {
               reversing = 1;
             }}
